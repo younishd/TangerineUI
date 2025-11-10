@@ -19,8 +19,8 @@
 
 # --- CONFIGURE PATHS BELOW ---
 # Use absolute paths
-TANGERINEUI="/home/mastodon/TangerineUI"
-MASTODON="/home/mastodon/live"
+TANGERINEUI="${TANGERINEUI:-/home/mastodon/TangerineUI}"
+MASTODON="${MASTODON:-/home/mastodon/live}"
 
 set -e
 
